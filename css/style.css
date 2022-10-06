@@ -1,0 +1,195 @@
+/* ------------------------ */
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 40px;
+  padding: 0;
+  background-color: #e5e5e5;
+  font-size: 14px;
+}
+/* ------------main------------ */
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0px auto;
+  box-shadow: 6px 6px 20px #0000001a;
+}
+/* ------------------------ */
+.text-color-orange {
+  color: #fb6d3a;
+}
+.text {
+  line-height: 1.71;
+  color: #595959;
+}
+.title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.23;
+}
+.sub-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+.date {
+  font-size: 12px;
+  line-height: 1.25;
+  color: #a8a8a8;
+}
+/* ----------main-content------------- */
+.main-content {
+  background-color: #fff;
+  padding: 102px 257px 107px 88px;
+}
+/* -----------about------------- */
+.about {
+  margin: 0px 100px 40px 0px;
+}
+.about__sup-title {
+  margin: 0px 0px 21px 0px;
+}
+.sup-title {
+  font-weight: 700;
+  line-height: 1.22;
+}
+.about__title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.23;
+  margin: 0px 0px 22px 0px;
+}
+.about__text {
+  margin: 0;
+  padding: 0;
+}
+
+/* -----------projects------------- */
+.projects {
+  margin: 0px 0px 51px 0px;
+}
+.projects__title {
+  margin: 0px 0px 8px 0px;
+}
+.projects__links {
+  padding: 0;
+  margin-left: 15px;
+}
+.projects__links li::marker {
+  font-weight: 700;
+  line-height: 24px;
+}
+.projects__link {
+  text-decoration: none;
+  margin: 0px 0px 0px 13px;
+}
+.projects__link:hover,
+.projects__link:focus {
+  text-decoration: underline;
+}
+.projects__type {
+  font-weight: 700;
+  color: #000000;
+}
+/* ------------work------------ */
+.work {
+  margin: 0px 0px 43px 0px;
+}
+
+.work__title {
+  margin: 0px 0px 12px 0px;
+}
+.work__company:not(:last-child) {
+  margin: 0px 0px 20px 0px;
+}
+.company__title {
+  margin: 0px 0px 11px 0px;
+}
+
+.company__date {
+  margin: 0px 0px 8px 0px;
+}
+.line {
+  color: #000;
+}
+.company__item {
+  padding: 0;
+  margin-left: 15px;
+}
+/* ------------education------------ */
+.education {
+}
+.education > *:not(:last-child) {
+  margin: 0px 0px 12px 0px;
+}
+.education__title {
+}
+.education__sub-title {
+}
+.education__sup-title {
+}
+.education__date {
+  margin: 0;
+  padding: 0;
+}
+/* -----------sidebar------------- */
+.sidebar {
+  background-color: #1e2939;
+  color: #fff;
+  padding: 40px 0px 0px 0px;
+}
+.sidebar__main {
+  margin: 50px 0px 0px 0px;
+  padding: 0px 0px 0px 40px;
+}
+.sidebar__main > *:not(:last-child) {
+  margin: 0px 0px 45px 0px;
+}
+.sidebar__main li::marker {
+  color: #fb6d3a;
+}
+.contacts {
+}
+.contacts__title {
+}
+.contacts__type {
+  color: #fff;
+  font-weight: 700;
+  margin: 0px 12px 0px 0px;
+}
+.contacts__link {
+  color: #fff;
+  opacity: 0.2;
+  text-decoration: none;
+}
+.contacts__link:hover,
+.contacts__link:focus {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+/* -----------tech-skills------------- */
+.tech-skills {
+}
+.tech-skills > *:not(:last-child) {
+  margin: 0px 0px 8px 0px;
+}
+.tech-skills__title {
+}
+.tech-skills__items {
+  margin-left: 15px;
+  padding: 0;
+}
+.tech-skills__item {
+  color: #fff;
+}
+/* -----------soft-skills------------- */
+.soft-skills {
+}
+.soft-skills__items {
+  margin-left: 15px;
+  padding: 0;
+}
+.soft-skills__item {
+  color: #fff;
+}
+/* ------------------------ */
